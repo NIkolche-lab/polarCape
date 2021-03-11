@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box; 
+    
+}
+.container {
+    background-color: rgb(103, 74, 247);
+    width: 55%;
+    height: 80vh;
+   margin: auto; 
+   display: grid;
+   align-content: center;
+   margin-top: 80px;
+    
+    
+}
+    
+h1 {
+    font-size: 20px;
+    color: rgb(88, 88, 88);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container-card {
+  display: grid;
+   /* align-content: center; */
+   justify-content: space-evenly;
+    background-color: white;
+   width: 40%;
+    height: 55vh;
+    border-radius: 5px;
+  /* margin: auto; */
+  position: relative;
+  margin-left:30%;
+  
+  
+}
+  .container-form{
+  display: grid;
+  justify-content: space-evenly;
+  align-content: center;
+  
+  
+ 
+}
+.form1 {
+    opacity: 0.5;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+     /* box-sizing: border-box;  */
+    background: #f1f1f1;
+  }
+  input[type=checkbox]{
+      color:   rgb(103, 74, 247); 
+  }
+
+.btn {
+    
+    background: rgb(103, 74, 247);
+    color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+       opacity: 1;
+      
+}
+.paragraph {
+    opacity: 0.5;
+ display: grid;
+ justify-content: center;
+
+}
